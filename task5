@@ -1,0 +1,10 @@
+revenue = int(input("Введите значение выручки >>>"))
+cost = int(input("Введите значение издержек >>>"))
+result = revenue - cost
+margin = result / revenue
+
+if result > 0:
+    print("Выручка компании составила:", result)
+    print("Рентабельность компании составила:", margin)
+else:
+    print("Убыток компании составил:", result)
