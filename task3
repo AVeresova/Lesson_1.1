@@ -1,0 +1,5 @@
+number = int(input("Введите однозначное число >>>"))
+number1 = number * 11
+number2 = number * 111
+number3 = number + number1 + number2
+print(f"Сумма чисел: {number}+{number1}+{number2} равна: {number3}")
