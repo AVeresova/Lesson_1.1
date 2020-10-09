@@ -1,0 +1,5 @@
+Second = int(input("Введите количество секунд >>>"))
+Hour = Second // 3600
+Minutes = (Second - Hour * 3600) // 60
+Second_next = Second - Minutes * 60 - Hour * 3600
+print(f"{Second} секунд - это {Hour}:{Minutes}:{Second_next}")
